@@ -4,9 +4,10 @@
 
 <h4>开始使用:</h4>
 var word='hello world';
+</br>
 var screend = new Screend({
 </br>
-    &nbsp;&nbsp; data: word
+    &nbsp;&nbsp;&nbsp;&nbsp; data: word
 </br>     
 })
 </br>
@@ -15,13 +16,13 @@ screend.toMax(); //[{key:'l',num:3}]
 <h4>初始参数：</h4>
 new Screend({
 </br>
-  &nbsp;&nbsp;data:[],        //所要传递的字符串或者数组
+  &nbsp;&nbsp;&nbsp;&nbsp; data:[],        //所要传递的字符串或者数组
   </br>
-  &nbsp;&nbsp;type:"default",  //初始返回对象形式('default','asc','desc')，默认为'default'
+  &nbsp;&nbsp;&nbsp;&nbsp; type:"default",  //初始返回对象形式('default','asc','desc')，默认为'default'
   </br>
-  &nbsp;&nbsp;filter: true, //是否过滤部分特殊符号，默认开启
+  &nbsp;&nbsp;&nbsp;&nbsp; filter: true, //是否过滤部分特殊符号，默认开启
   </br>
-  &nbsp;&nbsp;debug: true  //是否开启校验提示，默认开启
+  &nbsp;&nbsp;&nbsp;&nbsp; debug: true  //是否开启校验提示，默认开启
   </br> 
 }）
 
