@@ -11,13 +11,19 @@ screend.toMax(); //[{key:'l',num:3}]
 初始参数：
 
 new Screend({
+</br>
   data:[],        //所要传递的字符串或者数组
+  </br>
   type:"default",  //初始返回对象形式('default','asc','desc')，默认为'default'
+  </br>
   filter: true, //是否过滤部分特殊符号，默认开启
+  </br>
   debug: true  //是否开启校验提示，默认开启
+  </br>
 }）
 
 包含方法：
+</br>
 screend.toAsc()  
 返回升序对象
 
