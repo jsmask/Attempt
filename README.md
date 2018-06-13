@@ -5,23 +5,24 @@
 <h4>开始使用:</h4>
 var word='hello world';
 var screend = new Screend({
-     data: word
+</br>
+    &nbsp;&nbsp; data: word
+</br>     
 })
+</br>
 screend.toMax(); //[{key:'l',num:3}]
 
 <h4>初始参数：</h4>
 new Screend({
 </br>
-<div style="padding-left:10px;">
-  data:[],        //所要传递的字符串或者数组
+  &nbsp;&nbsp;data:[],        //所要传递的字符串或者数组
   </br>
-  type:"default",  //初始返回对象形式('default','asc','desc')，默认为'default'
+  &nbsp;&nbsp;type:"default",  //初始返回对象形式('default','asc','desc')，默认为'default'
   </br>
-  filter: true, //是否过滤部分特殊符号，默认开启
+  &nbsp;&nbsp;filter: true, //是否过滤部分特殊符号，默认开启
   </br>
-  debug: true  //是否开启校验提示，默认开启
-  </br>
-</div>  
+  &nbsp;&nbsp;debug: true  //是否开启校验提示，默认开启
+  </br> 
 }）
 
 <h4>包含方法：</h4>
