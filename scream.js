@@ -102,7 +102,7 @@
 
 	var _way = {
 		getList: function() {
-			var num = arguments[0] || this.list.length;
+			var num = arguments[0]&&arguments[0]<this.list.length || this.list.length;
 			var _list = this.list ? this.list : this;
 			var _l = [];
 			for(var i = 0; i < num; i++) {
