@@ -1,6 +1,7 @@
 <h3>名称：screend.js</h3>
 
 <b>简介：这是利用ES5.1开发的一个统计数组或字符串小型工具包，其包含如获取频率最高值，最低值，平均频率，升序，降序，查询等功能。</b>
+</br>
 
 <h4>开始使用:</h4>
 var word='hello world';
@@ -12,19 +13,21 @@ var screend = new Screend({
 })
 </br>
 screend.toMax(); //[{key:'l',num:3}]
+</br>
 
 <h4>初始参数：</h4>
 new Screend({
 </br>
   &nbsp;&nbsp;&nbsp;&nbsp; data:[],        //所要传递的字符串或者数组
   </br>
-  &nbsp;&nbsp;&nbsp;&nbsp; type:"default",  //初始返回对象形式('default','asc','desc')，默认为'default'
+  &nbsp;&nbsp;&nbsp;&nbsp; type:"default",  //初始返回对象形式['default','asc','desc']，默认为'default'
   </br>
   &nbsp;&nbsp;&nbsp;&nbsp; filter: true, //是否过滤部分特殊符号，默认开启
   </br>
   &nbsp;&nbsp;&nbsp;&nbsp; debug: true  //是否开启校验提示，默认开启
   </br> 
 }）
+</br>
 
 <h4>包含方法：</h4>
 screend.toAsc()
