@@ -25,7 +25,6 @@ new Screend({
 }）
 
 <h4>包含方法：</h4>
-</br>
 screend.toAsc()
 </br>
 返回升序对象
