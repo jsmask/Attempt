@@ -102,13 +102,11 @@
 
 	var _way = {
 		getList: function() {
-			var num = arguments[0]&&arguments[0]<this.list.length || this.list.length;
-			var _list = this.list ? this.list : this;
-			var _l = [];
-			for(var i = 0; i < num; i++) {
-				_l.push(_list[i]);
-			}
-			return _l;
+			var _list = this.list ? this.list : this;	
+			var _num= Number(arguments[0]) || _list.length;
+			_num=~~(Math.max(Math.min(_num,_list.length),1));
+			_list.length=_num;
+			return _list;
 		},
 		toMax: function() {
 			var _ret = [];
